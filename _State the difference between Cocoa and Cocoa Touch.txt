@@ -1,10 +1,12 @@
 ﻿Q. State the difference between Cocoa and Cocoa Touch.
 
 Answer: Cocoa and Cocoa Touch are two of Apple's widely used application frameworks used for building applications. However, they differ in the following ways:
+
 Cocoa
 * It is an application framework for building applications that run on Mac OS X.
 * Frameworks such as Foundation and AppKit are incorporated into Cocoa.
 * Cocoa classes use the NS (used for all classes and constants in the Cocoa framework) prefix (like NSTextField, NSWindow).
+
 Cocoa Touch
 * It is the application framework for building applications that run on devices like iPhones and iPads.
 * Cocoa Touch is a combination of frameworks such as Foundation and UIKit.
