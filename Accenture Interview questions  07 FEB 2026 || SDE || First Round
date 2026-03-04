@@ -1,0 +1,38 @@
+Accenture Interview questions  07 FEB 2026 || SDE || First Round 
+- [ ] Tell me about your career journey.
+- [ ] Which apps are you currently working on? Please provide examples.
+- [ ] How do you handle push notifications in an application?
+- [ ] What is the maximum payload size?
+- [ ] What is a deep link and how do you integrate it?
+- [ ] Tell me the procedure for remote notification integration.
+- [ ] Tell me the difference between MVC and MVVM.
+- [ ] What is Clean Architecture?
+- [ ] What is VIPER, and how is it different from others like MVC and MVVM?
+- [ ] If a deep link fails at any point, do you navigate back to the result screen or just show an alert?
+- [ ] What is the login process? Which method do you use for login, and what data do you send in the login request?
+- [ ] How many screens does your app have?
+- [ ] How many APIs does your app have?
+- [ ] How many team members are in your iOS group?
+- [ ] What does your app do? Please explain.
+- [ ] How do you get notifications from the server? Specifically, how does the server identify the actual device and which server sends the notification?
+- [ ] If your notification registration API fails, how does the user find out? How do you build it so that it retries?
+- [ ] Suppose your app is live and a new Apple version is about to launch in March; what steps would you take?
+- [ ] Do you write test cases? Which architecture is good for testing? Please provide some common method names used in testing.
+- [ ] How do you create a mock for an API? Have you ever tested an API in your test cases? If yes, tell me the names of the methods that help test APIs.
+- [ ] If an API generally returns an error, how do you handle it?
+- [ ] Tell me some names of HTTP status codes and explain their purposes.
+- [ ] Have you ever fixed a performance issue in an application? Please explain it.
+- [ ] What is content hugging?
+- [ ] How do you make a UI responsive?
+- [ ] If you have called many APIs, which Dispatch API would you prefer to use to get a notification after all the APIs have finished?
+- [ ] Where do you save your tokens?
+- [ ] Explain the token expiry process.
+- [ ] What steps would you take if the refresh token fails?
+- [ ] What is OAuth? Have you ever worked on it? Please explain.
+- [ ] How many libraries does your app use?
+- [ ] How do you track crashes in your app? Which framework do you use for tracing crashes in your application?
+- [ ] Has your app ever crashed? If yes, explain the crash and how you fixed it.
+- [ ] How do you integrate Firebase into your app? Explain the steps.
+- [ ] How do you review a junior’s code? Explain your review steps.
+- [ ] What is the difference between git merge and git rebase?
+ 
