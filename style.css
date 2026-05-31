@@ -1,0 +1,156 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+    font-family:
+        Inter,
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif;
+}
+
+/* HEADER */
+
+header{
+    position:sticky;
+    top:0;
+    z-index:100;
+    background:#161b22;
+    text-align:center;
+    padding:25px;
+    border-bottom:1px solid #30363d;
+}
+
+header h1{
+    color:#00e5ff;
+    margin-bottom:8px;
+}
+
+header p{
+    color:#8b949e;
+}
+
+/* CONTENT */
+
+main{
+    max-width:1000px;
+    margin:auto;
+    padding:30px 20px;
+}
+
+/* CARD */
+
+.card{
+    background:#161b22;
+    margin-bottom:20px;
+    border-radius:14px;
+    overflow:hidden;
+    border-left:4px solid #00e5ff;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:
+    0 0 20px rgba(0,229,255,.15);
+}
+
+/* QUESTION */
+
+summary{
+    list-style:none;
+    cursor:pointer;
+    padding:22px;
+    color:white;
+    font-size:20px;
+    font-weight:700;
+}
+
+summary::-webkit-details-marker{
+    display:none;
+}
+
+summary::after{
+    content:"+";
+    float:right;
+    color:#00e5ff;
+    font-size:24px;
+}
+
+/* OPEN STATE */
+
+details[open] summary::after{
+    content:"−";
+}
+
+/* ANSWER */
+
+.answer{
+    color:#00e5ff;
+    padding:0 22px 22px;
+    line-height:1.8;
+    font-size:17px;
+    border-top:1px solid #30363d;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#0d1117;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#00e5ff;
+    border-radius:10px;
+}
+
+/* BACK TO TOP */
+
+#topBtn{
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:55px;
+    height:55px;
+    border:none;
+    border-radius:50%;
+    background:#00e5ff;
+    color:black;
+    font-size:24px;
+    cursor:pointer;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    box-shadow:
+    0 0 20px rgba(0,229,255,.4);
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:24px;
+    }
+
+    summary{
+        font-size:18px;
+    }
+
+    .answer{
+        font-size:16px;
+    }
+}
