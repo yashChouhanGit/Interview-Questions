@@ -8,31 +8,77 @@
 </head>
 <body>
 
-    <div class="container">
-        <h1>📱 iOS Interview Questions & Answers</h1>
+<header>
+    <h1>📱 iOS Interview Questions & Answers</h1>
+    <p>Swift • SwiftUI • UIKit • Combine • Architecture</p>
+</header>
 
-        <div class="qa-card">
-            <div class="question">
-                Q1. What is an Optional in Swift?
-            </div>
+<main>
 
-            <div class="answer">
-                Optional is a type that can contain a value or nil.
-                It helps prevent unexpected crashes caused by null values.
-            </div>
+    <details class="card">
+        <summary>
+            1. What is Optional in Swift?
+        </summary>
+
+        <div class="answer">
+            Optional is a type that can contain either a value or nil.
+            It helps avoid crashes caused by missing values.
         </div>
+    </details>
 
-        <div class="qa-card">
-            <div class="question">
-                Q2. What is the difference between Struct and Class?
-            </div>
+    <details class="card">
+        <summary>
+            2. Difference between Struct and Class?
+        </summary>
 
-            <div class="answer">
-                Structs are value types, while classes are reference types.
-            </div>
+        <div class="answer">
+            Structs are Value Types while Classes are Reference Types.
+            Structs are stored independently while Classes share memory references.
         </div>
+    </details>
 
-    </div>
+    <details class="card">
+        <summary>
+            3. What is ARC?
+        </summary>
+
+        <div class="answer">
+            ARC (Automatic Reference Counting) automatically manages memory
+            by keeping track of object references and releasing memory
+            when objects are no longer needed.
+        </div>
+    </details>
+
+    <details class="card">
+        <summary>
+            4. What is @State in SwiftUI?
+        </summary>
+
+        <div class="answer">
+            @State is a property wrapper used to manage local mutable state
+            inside a SwiftUI View.
+        </div>
+    </details>
+
+</main>
+
+<button id="topBtn">↑</button>
+
+<script>
+const topBtn = document.getElementById("topBtn");
+
+window.addEventListener("scroll", () => {
+    topBtn.style.display =
+        window.scrollY > 300 ? "flex" : "none";
+});
+
+topBtn.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});
+</script>
 
 </body>
 </html>
